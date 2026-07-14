@@ -1,0 +1,32 @@
+[중요]
+이 버전은 비식별 처리된 고객별 사용패턴을 포함합니다. 공개 GitHub·공개 Streamlit에 업로드하지 마십시오.
+한전 내부망 또는 승인된 접근통제 서버에 배포하는 방식이 적절합니다.
+
+1. 같은 폴더에 아래 파일을 둡니다.
+- streamlit_app_actual_tou_v8.py
+- tou_v8_summary.json
+- tou_v8_customer_metrics.csv
+- tou_v8_daily_usage.csv.gz
+- tou_v8_customer_profiles.csv.gz
+- tou_v8_monthly_tou.csv.gz
+- requirements.txt
+
+2. 서버 또는 PC에서 설치합니다.
+pip install -r requirements.txt
+
+3. 실행합니다.
+streamlit run streamlit_app_actual_tou_v8.py
+
+4. 아이패드에서는 서버가 생성한 주소를 Safari로 엽니다.
+
+5. 정상 실행 시 상단에 아래 버전이 표시됩니다.
+2026-07-14-actual-tou-v8.0
+
+6. 최초 시험조건
+- 고객: T0329 또는 임의 고객
+- 분석 월: 8월
+- 조회시점: 20일
+- 현재 요금제: 기본형
+- 관리 방식: 한전 직접제어 위임
+- 강도: 균형
+- 등록기기: 대기전력, 냉난방기, 건조기, 식기세척기, 세탁기

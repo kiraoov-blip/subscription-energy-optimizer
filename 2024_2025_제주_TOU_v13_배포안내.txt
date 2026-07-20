@@ -1,0 +1,14 @@
+v13은 v12와 데이터 구성이 달라 실행파일만 올리면 안 됩니다.
+
+1. 이 패키지의 압축을 풉니다.
+2. 압축을 푼 파일을 비공개 GitHub 저장소 최상위에 모두 업로드합니다.
+3. Streamlit Community Cloud에서 새 앱을 생성합니다.
+4. Repository: 해당 비공개 저장소
+5. Branch: main
+6. Main file path: streamlit_app_actual_tou_v13.py
+7. Deploy를 누릅니다.
+
+정상 실행 시 화면 상단에 다음 버전이 표시됩니다.
+2026-07-20-actual-tou-v13.0
+
+특히 matched_daily.csv.gz 파일이 반드시 포함되어야 월중 고객별 요금 모니터링과 진단·제어 기능이 작동합니다.

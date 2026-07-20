@@ -1,0 +1,30 @@
+{
+  "customers_2024": 1199,
+  "customers_2025": 1210,
+  "matched_customers": 1196,
+  "core_matched_customers": 712,
+  "annual_mean_2024": 7101.772585674157,
+  "annual_mean_2025": 6957.286164325842,
+  "annual_mean_change_rate": -0.02034512082797134,
+  "annual_median_2024": 6835.678000000001,
+  "annual_median_2025": 6761.7840000000015,
+  "customer_yoy_median": -0.011223238971649094,
+  "increase_share": 0.4648876404494382,
+  "decrease_share": 0.5351123595505618,
+  "large_increase_share_20pct": 0.06320224719101124,
+  "large_decrease_share_20pct": 0.0702247191011236,
+  "tou_shares_2024": {
+    "off": 0.3721936167724225,
+    "mid": 0.31328093825766784,
+    "peak": 0.3145254449699097
+  },
+  "tou_shares_2025": {
+    "off": 0.3742840623695999,
+    "mid": 0.3103728434628766,
+    "peak": 0.31534309416752354
+  },
+  "forecast_15_customer_mean_MAPE": 4.293586682257758,
+  "forecast_15_mean_month_within10": 0.7251872659176029,
+  "forecast_20_customer_mean_MAPE": 2.9504629262613618,
+  "forecast_20_mean_month_within10": 0.8398876404494382
+}
